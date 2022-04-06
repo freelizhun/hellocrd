@@ -1,0 +1,16 @@
+domain: freelizhun.com
+layout:
+- go.kubebuilder.io/v3
+projectName: hellocrd
+repo: github.com/freelizhun/hellocrd
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: freelizhun.com
+  group: myapp
+  kind: Hello
+  path: github.com/freelizhun/hellocrd/api/v1
+  version: v1
+version: "3"

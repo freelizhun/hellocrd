@@ -1,0 +1,6 @@
+apiVersion: myapp.freelizhun.com/v1
+kind: Hello
+metadata:
+  name: hello-sample
+spec:
+  helloTimes: 3
