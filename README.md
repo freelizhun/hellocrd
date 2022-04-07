@@ -52,7 +52,7 @@ $ go mod tidy
 $ go build -o bin/manager main.go
 $ docker build -t regitryserver:4000/hello:latest -f Dockerfile.test .
 ```
-2.发布
+2.发布(crd文件格式可[参考](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/))
 ```bash
 # 先创建crd对象
 $ kubectl apply -f config/crd/bases/myapp.freelizhun.com_hellos.yaml
